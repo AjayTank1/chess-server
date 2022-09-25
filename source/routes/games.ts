@@ -8,6 +8,6 @@ const router = express.Router();
 // router.put('/posts/:id', controller.updatePost);
 // router.delete('/posts/:id', controller.deletePost);
 router.post('/game', controller.saveGame);
-router.get('/game', controller.getAllGames);
+router.get('/game', controller.getGame);
 
 export = router;
